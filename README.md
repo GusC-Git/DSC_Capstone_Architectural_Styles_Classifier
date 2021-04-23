@@ -1,6 +1,8 @@
 # Architectural Styles Period Classification
 -----------------------------------
 * [Non-technical slide presentation](https://docs.google.com/presentation/d/1Cdg3Li8UE5px6AfxCg9e_mE-Dwrw06boT6qpo86nIAQ/edit?usp=sharing)
+* [Non-technical video presentation](https://drive.google.com/file/d/1iyMhDIILF17g1d4S3gtjz0wOTW9E3i1D/view?usp=sharing)
+<br>
 Architectural style classification differs from standard classification tasks due to the richness of inter-class relationships between styles. Because of this, the classification of architectural style is one of the most challenging problems in architectural history. For my Capstone project I have scraped images off the web and combined them with an architectural dataset from Kaggle. To simplify the problem and allow for more images in each class, I have combined classes together into temporal periods.
 
 ## Contents of Repository
@@ -26,7 +28,7 @@ From this you can see that the mean aspect ratio was about 1.3. This means the i
 ### Augmentation
 Data Augmentation is a wonderful tool that can help prevent overfitting by generating images distorted to one's specifications and in a way, artificially increasing the amount of training images.
 
-![Images produced from Data Augmentation](data-augmentations.PNG)
+![Images produced from Data Augmentation](Images/data-augmentations.PNG)
 
 From the above image you can see some of the light distortion that I had made to my data. I played fairly conservative with which distortions I included in my data for I did not want it to become unrecognizable. 
 
