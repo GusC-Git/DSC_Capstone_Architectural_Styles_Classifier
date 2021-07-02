@@ -64,6 +64,8 @@ Here we see a better depiction of some of the issues mentioned earlier. The mode
 
 The model performed with a 47% accuracy on the Top-1 and 80% on the Top-3.  The biggest challenges for the model lie in the complexity and inter-class relationships not just between time periods but within the individual styles.
 
+## Future Work
+
 Moving forward there are many ways to improve on the top-1 accuracy, these range from gathering even more data to considering deepening the network or transfer learning. I hope to continue exploring what can be done and what improvements can be made.
 
 ## Acknowledgements
